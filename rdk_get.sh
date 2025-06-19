@@ -25,6 +25,7 @@ if [[ ${=TIME_E} -ge 2400 ]]; then
     fi
     TIME_E=$(echo $(( ${=TIME_E} - 2400 )) | awk '{printf "%04d", $0}')
 else
+    DATE_E=${=DATE_S}
     TIME_E=$(echo ${=TIME_E} | awk '{printf "%04d", $0}')    
 fi
 
