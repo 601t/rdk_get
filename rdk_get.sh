@@ -239,11 +239,11 @@ for i in ${ORDER_ARRAY[@]}; do
     ffmpeg -headers "x-radiko-authtoken: ${a1_authtoken}" -i "${LINK[${i}]}" -vn -c:a copy "${DOWNDIR}/${DATE[${i}]}_${TITLE[${i}]}.m4a"
 done   
 
-case "$(which aacgain)" in
-    'aacgain not found')
+case "$(which rsgain)" in
+    'rsgain not found')
 	:
 	;;
     *)
-	aacgain -e -c -t -p -s i ${DOWNDIR}/*.m4a
+	rsgain custom -s i -p -I keep -t ${DOWNDIR}/*.m4a
 	;;
 esac
