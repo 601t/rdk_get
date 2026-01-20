@@ -1,6 +1,6 @@
 # Radikoアーカイバー
 ## 注意!!!
-#### このスクリプトを使うには[Zsh](https://www.zsh.org/)、[cURL](https://curl.se/)、[FFmpeg](https://ffmpeg.org/)、そして[C](https://download-chromium.appspot.com/)[h](https://chromium.woolyss.com/#windows-64-bit)[r](https://www.google.com/intl/ja_jp/chrome/)[o](https://www.microsoft.com/ja-jp/edge/)[m](https://vivaldi.com/ja/download/)[i](https://brave.com/ja/download/)[u](https://www.srware.net/iron/)[m](https://www.opera.com/ja/opera)系のブラウザ(Windowsは[こちら](https://github.com/Hibbiki/chromium-win64/releases)を推奨)が必要です。<br>
+#### このスクリプトを使うには[Zsh](https://www.zsh.org/)、[cURL](https://curl.se/)、[FFmpeg](https://ffmpeg.org/)、そして[C](https://download-chromium.appspot.com/)[h](https://chromium.woolyss.com/#windows-64-bit)[r](https://www.google.com/intl/ja_jp/chrome/)[o](https://www.microsoft.com/ja-jp/edge/)[m](https://vivaldi.com/ja/download/)[i](https://brave.com/ja/download/)[u](https://www.srware.net/iron/)[m](https://www.opera.com/ja/opera)系のブラウザ(Chromiumを推奨。Windowsは[こちら](https://github.com/Hibbiki/chromium-win64/releases)を推奨)が必要です。<br>
 <br>
 
 ## 概要
