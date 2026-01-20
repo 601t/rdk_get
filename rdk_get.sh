@@ -32,8 +32,8 @@ CHK_DEPEND() {
 	    exit
 	    ;;
     esac
-    case "$(which chromium)" in
-	'chromium not found')
+    case "$(which ${BROWSER})" in
+	"${BROWSER} not found")
 	    echo 'Chromiumがないか、PATHにありません。終了します。'
 	    echo 'なおChromium系の他のブラウザでも代用できます。'
 	    echo 'このとき、19行目のBROWSERの値を変更してください。'
